@@ -1,0 +1,46 @@
+.footer {
+    width: 100%;
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(249, 49, 84, 0.54);
+    margin: 0;
+    font-size: 12px;
+    padding: 48px 50px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.icon {
+    display: flex;
+}
+
+.pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.iconItem {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.support {
+    color: #fff;
+}
+
+.suport:hover {
+    color: #000;
+}
